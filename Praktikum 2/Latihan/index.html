@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Joe Mama</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <img src="img.png" weidth="80%" height="80%" alt="" />
+        <div class="banner-text">
+          <h1>Hai, saya <span>Joe Mama</span></h1>
+          <p>Seorang ibu-ibu normal</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <a href="#about">Tentang saya</a>
+          <a href="#experience">Pengalaman kerja</a>
+          <a href="#contact">Hubungi saya</a>
+        </ul>
+      </nav>
+    </header>
+    <h3 id="about"># Tentang saya</h3>
+    <div class="container-tentang">
+      <div class="left">
+        <p>
+          <img src="lipsum.png" alt="alternatif teks" class="simbol-l" />
+          orem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div class="right">
+        <video width="60%" height="60%" controls>
+          <source src="baik hati.mp4" type="video/mp4" />
+        </video>
+        <p>lorem ipsum ipsum lorem</p>
+      </div>
+    </div>
+    <h3 id="experience"># pengalaman kerja</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th rowspan="2">#</th>
+          <th rowspan="2">POSISI</th>
+          <th rowspan="2">PERUSAHAAN</th>
+          <th colspan="2">WAKTU</th>
+        </tr>
+        <tr>
+          <th>MULAI</th>
+          <th>SELESAI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td v-align="center">1</td>
+          <td>Lorem Ipsum Dolor</td>
+          <td>Dicta Modi Malores</td>
+          <td>1928</td>
+          <td>1973</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Id Provident Excepturi</td>
+          <td>Veniam Doloras Adipisci</td>
+          <td>1945</td>
+          <td>1973</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Repellendus Debitis Iste</td>
+          <td>Adipisicing Elit Accusamous</td>
+          <td>1973</td>
+          <td>1982</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Corporis Quidem Iure</td>
+          <td>Adipisicing Elit Accusamous</td>
+          <td>1982</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Tenetur Nisi Architecto</td>
+          <td>Lorem ipsum</td>
+          <td>2022</td>
+          <td>2200</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="contact"># hubungi saya</h3>
+    <div class="hubungi">
+      <form>
+        <div class="nama">
+          <label>Nama </label>
+          <input type="text" id="fname" />
+        </div>
+        <div class="nonton">
+          <label for="pil">Sudah menonton film saya?</label>
+          <div>
+            <input type="radio" name="sudah" id="sudah" value="sudah" />
+            <label>Sudah</label>
+            <input type="radio" name="sudah" id="belum" value="belum" />
+            <label>Belum</label>
+          </div>
+        </div>
+        <div class="coba">
+          <label for="pil">Apa coba?</label>
+          <div>
+            <input type="checkbox" id="ini" />
+            <label>Ini</label>
+            <input type="checkbox" id="itu" />
+            <label>Itu</label>
+            <input type="checkbox" id="anu" />
+            <label>Anu</label>
+          </div>
+        </div>
+        <button class="submit" type="submit">KIRIM</button>
+      </form>
+    </div>
+    <footer>
+      <p>ini footer</p>
+    </footer>
+  </body>
+</html>
