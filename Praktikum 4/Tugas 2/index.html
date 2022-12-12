@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="foto">
+            <img src="fotogw.jpg" weidth="90%" height="90%"  />
+        </div>
+        <div class="banner-text">
+          <h1>Hai, saya <span>Tomu</span></h1>
+          <p>Seorang mahasiswa Teknik Informatika</p>
+          <button onclick="toggle()">
+            Dark Mode
+          </button>
+        </div>
+      </div>
+      <nav>
+        <ul class="breadcrumb">
+          <a href="https://www.instagram.com/p27ra/">Instagram</a> 
+          <a href="mailto:tomu.120140209@student.itera.ac.id">Email</a> 
+          <a href="https://github.com/tomupetra">Github</a>
+          <a href="https://wa.me/+628">WhatsApp</a>
+        </ul>
+    </nav>
+    </header>
+    <h3 id="about"># Tentang saya</h3>
+    <div class="container-tentang">
+      <div class="left">
+        <p>
+          Nama saya Tomu Petra Manogari Nahulae, dengan NIM 120140209. Mahasiswa Teknik Informatika Institut Teknologi Sumatera.
+          Saat ini saya sedang duduk di Semester 5. Artinya tidak lama lagi saya akan segera lulus dari kampus ini. <br><br>
+          Doain semoga bisa lulus dengan nilai yang baik ya!!!
+        </p>
+    </div>
+    <div class="right">
+        <video width="60%" height="60%" controls>
+          <source src="baik hati.mp4" type="video/mp4" />
+        </video>
+        <p>Saya orang yang baik hati</p>
+    </div>
+    </div>
+    <h3 id="experience"># Pengalaman kerja</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th rowspan="2">#</th>
+          <th rowspan="2">POSISI</th>
+          <th rowspan="2">PERUSAHAAN</th>
+          <th colspan="2">WAKTU</th>
+        </tr>
+        <tr>
+          <th>MULAI</th>
+          <th>SELESAI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td v-align="center">1</td>
+          <td>Mentor First Gathering 2021</td>
+          <td>HMIF</td>
+          <td>2021</td>
+          <td>2021</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Id Provident Excepturi</td>
+          <td>Veniam Doloras Adipisci</td>
+          <td>1945</td>
+          <td>1973</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Repellendus Debitis Iste</td>
+          <td>Adipisicing Elit Accusamous</td>
+          <td>1973</td>
+          <td>1982</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Corporis Quidem Iure</td>
+          <td>Adipisicing Elit Accusamous</td>
+          <td>1982</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Tenetur Nisi Architecto</td>
+          <td>Lorem ipsum</td>
+          <td>2022</td>
+          <td>2200</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="contact"># hubungi saya</h3>
+    <div class="hubungi">
+      <form>
+        <div class="nama">
+          <label>Nama </label>
+          <input type="text" id="fname" />
+        </div>
+        <div class="nonton">
+          <label for="pil">Sudah menonton film saya?</label>
+          <div>
+            <input type="radio" name="sudah" id="sudah" value="sudah" />
+            <label>Sudah</label>
+            <input type="radio" name="sudah" id="belum" value="belum" />
+            <label>Belum</label>
+          </div>
+        </div>
+        <div class="coba">
+          <label for="pil">Apa coba?</label>
+          <div>
+            <input type="checkbox" id="ini" />
+            <label>Ini</label>
+            <input type="checkbox" id="itu" />
+            <label>Itu</label>
+            <input type="checkbox" id="anu" />
+            <label>Anu</label>
+          </div>
+        </div>
+        <button class="submit" type="submit">KIRIM</button>
+      </form>
+    </div>
+    <footer>
+      <p>ini footer</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
